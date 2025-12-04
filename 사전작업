@@ -1,0 +1,17 @@
+https://jsonplaceholder.typicode.com/posts
+
+이번 프로젝트 목적
+
+게시판을 만든다.
+
+게시판 목록-세부 창  2개가 되어야한다.
+목록을 api 로 받아온다.
+
+
+<게시판 목록창>
+1. 로딩전후-useState가 필요
+2. 게시판 목록을 배열로 받아옴
+3. api를 fetch로 받아오고, 그러면 useEffect도 연결
+※
+
+<세부창>
