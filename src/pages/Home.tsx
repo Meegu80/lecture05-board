@@ -2,7 +2,7 @@ import {useEffect, useState} from "react";
 import {Link} from "react-router";
 import styled from "styled-components";
 
-type Post = {
+export type Post = {
     userId: number;
     id: number;
     title: string;
