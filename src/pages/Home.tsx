@@ -11,20 +11,20 @@ export type Post = {
 
 type ApiResponse = Post[];
 
-const Container = styled.div`
+export const Container = styled.div`
     padding: 24px;
     box-sizing: border-box;
 `;
-const Title = styled.h2`
+export const Title = styled.h2`
     margin-bottom: 20px;
 `;
 
-const List = styled.ul`
+export const List = styled.ul`
     list-style: none;
     padding: 0;
 `;
 
-const ListItem = styled.li`
+export const ListItem = styled.li`
     padding: 16px;
     border-bottom: 1px solid #ddd;
 
